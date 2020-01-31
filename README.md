@@ -8,4 +8,4 @@ We put Z = U X, where Z is a matrix or artificial variables and solve for L Z = 
 
 Findingz outputs this artificial matrix z which is further used by findingans to find out the ans i.e. Inverse of Matrix in this case as the value assigned to C is an identity matrix.
 
-Solving calls both the function and uses them to compute the final output. Main just calls solving and displays the final matrix i.e. inverse in this case.
+Solving calls both the function and does all the remaining small calculations required by the two functions as their parameters. Main just calls solving and displays the final matrix i.e. inverse in this case.
